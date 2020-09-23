@@ -1,0 +1,23 @@
+{
+  "name": "population_infinite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "obfuscation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzhang33/Population_infinite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yzhang33/Population_infinite/issues"
+  },
+  "homepage": "https://github.com/yzhang33/Population_infinite#readme",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^1.1.1"
+  }
+}
