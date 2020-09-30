@@ -1,3 +1,8 @@
+# Week 3 Simulation
+This week I a creating a watched youTube titles as my data and train a GPT2 to generate youtube titles. Actually the hard part is to collect the data. My data set has to be large enough to run as training set. As well as the  context of the file. I can not just use JSON file I parsed. I actually wrote a python parser to parse my json file. All the data set and code is under week3's folder. Here is some results I had when I ran the model I trained. 
+ 
+
+
 # Week 1 Obfuscation
 
 ### Assignment Goal:
