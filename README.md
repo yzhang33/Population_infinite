@@ -29,6 +29,12 @@ Lil Joe ft. Bryson Tiller - 'ETERNAL' | Type Beat | 2018
 J.I. x Lil Tja
 ```
 I typed a person's name and I got some music youTube title. 
+```
+🐶
+
+🐶Three Little Kittens - LooLooKids Nursery Rhymes and Kids Songs
+```
+I typed a emoji and it gave me a song name. Interesting... It even kind of recognized what kind of emoji I am using even though its not that acurate.
 I think more data and larger training set will make this model more accurate and readable. I guess this hard this is to access the data and manipulate and clean the data rather than training it. 
 
 
