@@ -1,3 +1,20 @@
+# Week 4 My Bot Firend
+As we exposed more to technolog, we tend to forget who we are and how we are seen ourselves. Then I decided to created a chat bot in Discord who can talk to me in an inspriation way to remind me who I was. 
+## Scraping
+I started with scraping the self identification quotes form web. I used python and bs4 to scraping all the quotes from the web and stored them into a txt file. Scraping script in week4 folder.
+![quotes](./quotes.png)
+## Training
+I used the quotes I scraped to train a GPT2 in runway as the communication tool for my discord bots. It will run this model I trained and exchange message with me. 
+```javascript
+const model = new rw.HostedModel({
+  url: "https://bot-dis-84e10ad3.hosted-models.runwayml.cloud/v1/",
+  token:,
+});
+```
+## DiscordMan 
+I used discord developer applicaiton to set up a discord bot. I call it discordMan who reminds me who I truly was. When I say "Good Morning" it will run the GPT2 model and reply me with a quot came up by himself. When I say "Hello my friend" it will replay me a random quote I scraped as if he is talking to me.
+![discrodman](./bot.png)
+
 # Week 3 Simulation
 This week I a creating a watched youTube titles as my data and train a GPT2 to generate youtube titles. Actually the hard part is to collect the data. My data set has to be large enough to run as training set. As well as the  context of the file. I can not just use JSON file I parsed. I actually wrote a python parser to parse my json file. All the data set and code is under week3's folder. Here is some results I had when I ran the model I trained. 
 ![Training](./train.png)
