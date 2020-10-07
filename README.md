@@ -2,6 +2,7 @@
 As we exposed more to technolog, we tend to forget who we are and how we are seen ourselves. Then I decided to created a chat bot in Discord who can talk to me in an inspriation way to remind me who I was. 
 ## Scraping
 I started with scraping the self identification quotes form web. I used python and bs4 to scraping all the quotes from the web and stored them into a txt file. Scraping script in week4 folder.
+
 ![quotes](./quotes.png)
 ## Training
 I used the quotes I scraped to train a GPT2 in runway as the communication tool for my discord bots. It will run this model I trained and exchange message with me. 
