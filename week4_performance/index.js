@@ -23,7 +23,7 @@ client.on('message', gotMessage);
 function gotMessage(msg) {
     // Only for this server and this channel
     if (msg.guild.id === serverID && msg.channel.id === channelID) {
-        if (msg.content === 'Good Morning') {
+        if (msg.content === 'who am I') {
             const model = new rw.HostedModel({
                 url: "https://bot-dis-84e10ad3.hosted-models.runwayml.cloud/v1/",
                 token: "5/3ElRCwndkTNhmRgsP9Ww==",
